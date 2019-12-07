@@ -13,5 +13,13 @@ code {
 }
 
 .question {
-  border: 1px solid red;
+  margin: 20px auto;
+  width: 40%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-color: rgb(213, 215, 216);
+}
+
+.justify {
+  margin-top: 20px;
 }
