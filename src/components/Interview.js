@@ -112,8 +112,10 @@ function Interview() {
             id='theoriesInput'
             placeholder='What theories do you have about where the story is headed?'
             maxLength='400'
-          /><br/>
+          /><br/>  
         </div>
+
+        <input type='submit' />
       </form>
     </div>
   );
