@@ -29,7 +29,7 @@ function Interview() {
 
           <div className='justify'>
             <label htmlFor='favJustificationInput'>Why?: </label>
-            <input
+            <textarea
               type='text'
               name='favJustification'
               id='favJustificationInput'
@@ -53,7 +53,7 @@ function Interview() {
 
           <div className='justify'>
             <label htmlFor='leastFavJustificationInput'>Why?: </label>
-            <input
+            <textarea
               type='text'
               name='leastFavJustification'
               id='leastFavJustificationInput'
@@ -67,7 +67,7 @@ function Interview() {
           <h3>What was your favorite scene or sequence of events?<br/>What did you like about it?</h3>
 
           <label htmlFor='favSceneInput'>Favorite Scene: </label>
-          <input
+          <textarea
             type='text'
             name='favScene'
             id='favSceneInput'
@@ -80,7 +80,7 @@ function Interview() {
           <h3>What was your least favorite scene or sequence of events?<br/>What didn't you like about it?</h3>
 
           <label htmlFor='leastFavSceneInput'>Least Favorite Scene: </label>
-          <input
+          <textarea
             type='text'
             name='leastFavScene'
             id='leastFavSceneInput'
@@ -93,7 +93,7 @@ function Interview() {
           <h3>What questions were raised in your mind as a reader?</h3>
 
           <label htmlFor='questionsRaisedInput'>Questions Raised: </label>
-          <input
+          <textarea
             type='text'
             name='questionsRaised'
             id='questionsRaisedInput'
@@ -106,7 +106,7 @@ function Interview() {
           <h3>What theories do you have about where the story is headed?</h3>
 
           <label htmlFor='theoriesInput'>Theories: </label>
-          <input
+          <textarea
             type='text'
             name='theories'
             id='theoriesInput'
